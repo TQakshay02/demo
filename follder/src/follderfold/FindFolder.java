@@ -31,7 +31,7 @@ public class FindFolder {
                 // Compare the modification date with the target date
                 if (dateFormat.format(modifiedDate).equals(dateFormat.format(targetDate))) {
                     // Folder was modified on the target date
-                    System.out.println("Folder: " + fileOrFolder.getName() + " was modified on " + dateFormat.format(modifiedDate));
+                    System.out.println("FolderSSSSSSSSSSSSSSS: " + fileOrFolder.getName() + " was modified on " + dateFormat.format(modifiedDate));
                 }
             }
         }
